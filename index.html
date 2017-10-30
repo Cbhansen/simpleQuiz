@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="./skeleton-css/css/normalize.css">
+    <link rel="stylesheet" href="./skeleton-css/css/skeleton.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <form id="quiz" name="quiz">
+        <h3>Vanilla JS Quiz</h3>
+        <hr>
+        <p>What is the capital with California</p>
+        <input type="textbox" id="input1" name="question1">
+        <hr>
+
+        <p>What is the capital of New York</p>
+        <input type="radio" id="mc" name="question2" value="NYC">NYC<br>
+        <input type="radio" id="mc" name="question2" value="Albany">Albany
+        <hr>
+
+        <p>What is the capital of Rhode Island</p>
+        <input type="radio" id="mc" name="question3" value="Hartford">Hartford<br>
+        <input type="radio" id="mc" name="question3" value="Providence">Providance
+        <hr>
+
+        <input type="button" id="btn" value="I'm finished!" onClick="check();">
+    </form>
+
+    <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+        <img id="picture" >
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

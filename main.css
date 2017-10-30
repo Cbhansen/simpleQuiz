@@ -1,0 +1,29 @@
+#quiz {
+    width: 45%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 25px;
+    text-align: left;
+    border-radius: 25px;
+    float: left;
+}
+#btn {
+    transition: .3s all;
+}
+#btn:hover {
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+#after_submit {
+    visibility: hidden;
+    width: 45%;
+    padding: 1em;
+    height: auto;
+    background: orangered;
+    border-radius: 20px;
+    float: right;
+}
+
+img {
+    width: 400px;
+}
